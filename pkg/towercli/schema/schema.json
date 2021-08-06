@@ -4,40 +4,40 @@
     "installStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "towercli": {"$ref": "#/definitions/towercli"}
       },
       "required": [
-        "skeletor"
+        "towercli"
       ],
       "additionalProperties": false
     },
     "upgradeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "towercli": {"$ref": "#/definitions/towercli"}
       },
       "required": [
-        "skeletor"
+        "towercli"
       ],
       "additionalProperties": false
     },
     "invokeStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "towercli": {"$ref": "#/definitions/towercli"}
       },
       "required": [
-        "skeletor"
+        "towercli"
       ],
       "additionalProperties": false
     },
     "uninstallStep": {
       "type": "object",
       "properties": {
-        "skeletor": {"$ref": "#/definitions/skeletor"}
+        "towercli": {"$ref": "#/definitions/towercli"}
       },
       "required": [
-        "skeletor"
+        "towercli"
       ],
       "additionalProperties": false
     },
@@ -74,7 +74,7 @@
         ]
       }
     },
-    "skeletor": {
+    "towercli": {
       "type": "object",
       "properties": {
         "description": {

@@ -1,4 +1,4 @@
-module get.porter.sh/mixin/skeletor
+module github.com/squillace/porter-towercli
 
 go 1.13
 
